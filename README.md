@@ -1,7 +1,7 @@
 ```
 mongo:
   restart: always
-  build: https://github.com/jsoendermann/mongo-with-user
+  build: https://github.com/jsoendermann/mongo-with-user.git#master
   environment:
     - MONGO_INITDB_ROOT_USERNAME=admin
     - MONGO_INITDB_ROOT_PASSWORD=adminPw
